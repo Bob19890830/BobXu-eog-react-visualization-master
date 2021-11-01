@@ -84,7 +84,8 @@ const MultipleMetrics = () => {
     }
     if (!data) {
       return;
-    } else {
+    }
+    else {
       const { getMultipleMeasurements } = data;
       dispatch(actions.multipleData(getMultipleMeasurements));
     }

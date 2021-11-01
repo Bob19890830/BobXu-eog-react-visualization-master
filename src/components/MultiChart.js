@@ -128,7 +128,7 @@ export default function MultiChart() {
           );
         }
       })}
-      <LineChart width={1000} height={600}>
+      <LineChart width={1000} height={500} style={{position:'sticky', margin:'120px auto', left:'0', right:'0'}}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="at" type="category" allowDuplicatedCategory={false} />
         <YAxis dataKey="value" />

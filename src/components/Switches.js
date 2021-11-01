@@ -41,11 +41,11 @@ export default function Switches() {
 
   return (
     <div>
-      <h1>Select Metrics</h1>
       <FormControl component="fieldset">
         <FormGroup aria-label="position" row>
           <FormControlLabel
             value="top"
+
             control={
               <Switch
                 checked={state.checkedA}

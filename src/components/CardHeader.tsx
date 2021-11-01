@@ -6,7 +6,7 @@ const styles = (theme: Theme) => ({
     background: theme.palette.primary.main,
   },
   title: {
-    color: 'white',
+    color: 'grey',
   },
 });
 export default withStyles(styles)(CardHeader);

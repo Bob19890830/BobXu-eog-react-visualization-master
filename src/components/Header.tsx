@@ -19,7 +19,7 @@ export default () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" color="inherit" className={classes.grow}>
+        <Typography variant="h5" color="inherit" className={classes.grow}>
           {name} EOG React Visualization Assessment
         </Typography>
         <HeartBeat />
